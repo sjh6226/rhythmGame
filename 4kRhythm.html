@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>건반형 리듬게임</title>
+    <link rel="stylesheet" href="css/4k.css">
+</head>
+
+<body>
+    <h1>리듬게임 (4키)</h1>
+    <p>떨어지는 노트의 타이밍을 맞춰라</p>
+
+    <div id="gameArea">
+        <p id="combo">0</p>
+        <p id="score">0</p> <!-- 점수 표시 -->
+        <p id="timer">2:40</p> <!-- 타이머 표시 -->
+        <img id="judgeLineImage" src="\game\img\judge\judge.png" alt="판정선">
+    </div>
+        <button id="increaseSpeed">속도 증가</button>
+        <button id="decreaseSpeed">속도 감소</button>
+        <br>
+        <br>
+        <button onclick="gameStart()">게임시작</button>
+    <script src="\game\js\4k.js"></script>
+</body>
+
+</html>
