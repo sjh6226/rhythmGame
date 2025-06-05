@@ -13,7 +13,7 @@ body {
      display: flex;
      justify-content: space-around;
 
-    background-image: url('/game/img/background.png');
+    background-image: url('/img/background.png');
     background-size: cover;
     background-position: center;
  }
