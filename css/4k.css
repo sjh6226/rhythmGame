@@ -29,17 +29,13 @@ body {
  }
 
  #combo {
-    color: white;
+    color: #ffe600;
      font-size: 38px;
      font-weight: bold;
      position: absolute;
      top: 20px;
      left: 50%;
      transform: translateX(-50%);
-     background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
  }
 
  #judgeLineImage {
